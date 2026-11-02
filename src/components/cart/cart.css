@@ -1,0 +1,130 @@
+.empty-cart {
+    width: 80%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    color: black;
+
+}
+
+.gr-color2 {
+    background: linear-gradient(to right, #cfd2d3, #757879);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.order-cart {
+
+    border-radius: 10px;
+    padding: 40px;
+    width: 500px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .3s;
+    box-shadow: var(--bs-box-shadow-lg) !important;
+    border: none !important;
+    border-radius: 20px !important;
+    animation: fadeUp .8s;
+    background: rgb(243, 244, 245);
+
+}
+
+.order-cart:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px #0000001f;
+
+
+}
+
+
+.confirm-order-btn {
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+.back-button {
+    margin-left: 20px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+}
+
+.popup-box {
+    background: rgb(255, 255, 255);
+    width: 400px;
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    animation: popup 0.3s ease;
+}
+
+.popup-icon {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #717475, #8e9eab);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-box h2 {
+    margin-bottom: 15px;
+    color: gray;
+}
+
+
+.popup-button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #717475, #8e9eab);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    cursor: pointer;
+}
+
+
+@keyframes popup {
+    from {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

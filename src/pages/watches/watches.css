@@ -1,0 +1,14 @@
+.hero-img {
+
+    background-image: url('../../assets//home-images//home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero-img-text {
+    padding-top: 150px;
+}

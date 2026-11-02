@@ -1,0 +1,21 @@
+.carousel {
+    height: 600px;
+    border-radius: 5px;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    right: 65%;
+    color: white;
+    text-align: left;
+
+}
+.bestseller-card {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    overflow:scroll;
+}

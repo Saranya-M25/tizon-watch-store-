@@ -1,0 +1,17 @@
+.footer {
+    background-color: black;
+    color: white;
+    height: 50%;
+}
+.logo-text h4 {
+    font-family: var(--logo-font);
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.social-icons a {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}

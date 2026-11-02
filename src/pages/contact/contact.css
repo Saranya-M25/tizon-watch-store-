@@ -1,0 +1,43 @@
+.bg-color1 {
+    background: rgb(243, 244, 245);
+    padding: 30px;
+}
+
+.contact-item {
+    font-size: 30px;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.contact-card {
+    border-radius: 10px;
+    width: 75%;
+    padding: 40px;
+    transition: all .3s;
+    box-shadow: 0 8px 25px #00000014;
+    border: none !important;
+    border-radius: 20px !important;
+    animation: fadeUp .8s;
+    background: linear-gradient(to right, #e4e3e6, #f6f6f7);
+
+
+}
+
+.contact-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px #0000001f;
+    background: linear-gradient(to right, #e4e3e6, #f6f6f7);
+
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

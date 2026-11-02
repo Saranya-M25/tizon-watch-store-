@@ -1,0 +1,28 @@
+.offer-alert {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(to right, #e9e4f0, #d3cce3);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.offer-card {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offer-card img {
+    border-radius: 20px;
+    width: 300px;
+}
+
+.bg-color {
+    background: rgb(197, 193, 193);
+
+}

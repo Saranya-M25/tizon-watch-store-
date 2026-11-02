@@ -1,0 +1,89 @@
+.categ {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categ img {
+    border-radius: 5px;
+    height: 450px;
+    width: 415px;
+}
+
+.categ a {
+    text-decoration: none;
+}
+
+.explore-btn {
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: #9a9b9c;
+    border-radius: 50px;
+    justify-content: center
+}
+
+.mencard {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+
+    justify-content: center;
+}
+
+.bgimg {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.bgimg-1 {
+    background-image: url("../src/assets/feature-images/featured-watch1.jpg");
+}
+
+.bgimg-2 {
+    background-image: url("../src/assets/feature-images/featured-watch2.jpg");
+}
+
+
+.parallax-content-right {
+    padding: 50px;
+    color: white;
+    margin-left: 50%;
+}
+
+.parallax-content-rightbtn {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: black;
+    border-radius: 50px;
+    justify-content: center
+}
+
+.parallax-content-left {
+    padding: 50px;
+    color: white;
+    margin-right: 50%;
+}
+
+.video-container {
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.home-video {
+    border-radius: 5px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
